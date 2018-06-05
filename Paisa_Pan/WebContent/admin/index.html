@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+<body style="background-image:url('../img/pan.png'); background-size:cover;">
+<div class="login-page">
+  <div class="form">
+    <form class="login-form"  action="control/login.jsp" method="POST">
+      <input type="email" placeholder="Digitie correo" name="correo" required/>
+      <input type="password" placeholder="Digite clave" name="clave" required/>
+      <button>Login</button>
+    </form>
+ 
+  </div>
+</div>
+<script>$('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});</script>
+
+</body>
+</html>
